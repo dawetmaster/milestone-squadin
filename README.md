@@ -1,4 +1,18 @@
-# Getting Started with Create React App
+# Panduan Singkat
+
+Disarankan untuk clone repo ini terlebih dulu dengan command\
+```git clone https://github.com/dawetmaster/milestone-squadin.git -b frontend```\
+
+Sebelum commit ke repo ini, disarankan pull dulu melalui command\
+```git pull origin frontend```\
+Lalu push ke repo ini dengan command\
+```git push origin frontend```\
+
+Kalau ada yang tanya, bisa tanya langsung ke discord aja ya
+
+# Lainnya
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
