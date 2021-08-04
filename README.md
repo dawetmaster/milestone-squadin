@@ -4,7 +4,7 @@ Disarankan untuk clone repo ini terlebih dulu dengan command\
 ```git clone https://github.com/dawetmaster/milestone-squadin.git -b frontend```
 
 Sebelum commit ke repo ini, disarankan pull dulu melalui command\
-```git pull origin frontend```
+```git pull origin frontend```\
 Lalu push ke repo ini dengan command\
 ```git push origin frontend```
 
