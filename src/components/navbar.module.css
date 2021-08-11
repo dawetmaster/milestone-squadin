@@ -1,14 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
-}
 
-  html {
-    scroll-behavior: smooth;
-  }
+
+
 
   .content { /* Content dari navbar nya */
     max-width: 1250px;
@@ -18,7 +10,7 @@
   
   .navbar { /* Sebelum scrolling */
     position: fixed; /* biar ga ikutan ngilang sewaktu scroll*/
-    z-index: 5;
+    z-index: 1;
     width: 100%;
     background: #9CD124;
     padding: 7px 0;
@@ -93,12 +85,12 @@
     font-weight: bold;
   }
 
-  .navbar .menu-list, .section-loginsignup, .profile {
+  .navbar .menulist, .section-loginsignup, .profile {
     display: inline-flex; /* membuat jadi satu baris */
     margin-left: 25px;
   }
 
-  .navbar .menu-list .section-loginsignup .section-login a{
+  .navbar .menulist .section-loginsignup .section-login a{
       background-color: black;
       font-weight:bold;
       color: #e0dfdf;
@@ -107,7 +99,7 @@
       border-bottom-left-radius: 11px;
   }
 
-  .navbar .menu-list .section-loginsignup .section-signup a{
+  .navbar .menulist .section-loginsignup .section-signup a{
       background-color: white;
       font-weight:bold;
       color:black;
@@ -116,10 +108,10 @@
       border-bottom-right-radius: 11px;
   }
 
-  .menu-list li {
+  .menulist li {
     list-style: none;
   }
-  .menu-list li a {
+  .menulist li .link {
     color: rgb(255, 255, 255);
     font-size: 15px;
     font-weight: 400;
@@ -127,7 +119,7 @@
     text-decoration: none;
     transition: all 0.3s ease;
   }
-  .menu-list li a:hover {
+  .menulist li .link:hover {
     color: #000000;
   }
   
@@ -171,7 +163,7 @@
       display: none;
     }
   
-    .navbar .menu-list {
+    .navbar .menulist {
       position: fixed;
       height: 100vh;
       width: 100%;
@@ -185,22 +177,22 @@
       transition: all 0.5s ease;
     }
 
-    .navbar .menu-list, .section-loginsignup, .profile {
+    .navbar .menulist, .section-loginsignup, .profile {
         margin-left: 0;
     }
   
-    .navbar.sticky .menu-list {
+    .navbar.sticky .menulist {
         clip-path: circle(15px at calc(100% - 55px) calc(0% + 31px));
     }
   
-    .navbar .menu-list.active {
+    .navbar .menulist.active {
       clip-path: circle(100%);
     }
   
-    .navbar .menu-list li { /* Menu list di size smartphone */
+    .navbar .menulist li { /* Menu list di size smartphone */
       padding: 25px 0;
     }
-    .navbar .menu-list li a { /* Huruf pada tiap menu list di size smartphone */
+    .navbar .menulist li a { /* Huruf pada tiap menu list di size smartphone */
       font-size: 20px;
     }
   
