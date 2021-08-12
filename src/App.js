@@ -1,5 +1,6 @@
 import './App.css';
 import Navbar from './components/navbar.js';
+import LoginPage from './login and sign up page/login.js'
 import HelpPage from './pages/helppage.js';
 import LandingPage from './pages/landingpage.js';
 import {
@@ -11,6 +12,7 @@ import { mainRoutes } from './const';
 // library fontawesome icons
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBell } from "@fortawesome/free-solid-svg-icons";
+import { Link } from "react-router-dom";
 
 function App() {
   return (
@@ -21,6 +23,9 @@ function App() {
           <Switch>
             <Route exact path="/">
               <LandingPage />
+            </Route>
+            <Route path="/login">
+              <LoginPage />
             </Route>
             <Route path="/help">
               <HelpPage />

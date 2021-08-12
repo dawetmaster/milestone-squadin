@@ -12,6 +12,7 @@ function Navbar() {
                 <ul className={styles.menulist}>
                     <li><Link className={styles.link} to="/">Home</Link></li>
                     <li><Link className={styles.link} to="/">Search</Link></li>
+                    <li><Link className={styles.link} to="/login">Login</Link></li>
                     <li>
                         <Notifications
                         header={{
