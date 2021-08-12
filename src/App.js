@@ -1,8 +1,9 @@
 import './App.css';
-import Navbar from './components/navbar.js';
-import LoginPage from './login and sign up page/login.js'
+import Navbar from './navbar/navbar.js';
+import LoginPage from './pages/login.js'
 import HelpPage from './pages/helppage.js';
 import LandingPage from './pages/landingpage.js';
+
 import {
   BrowserRouter as Router,
   Switch,
@@ -12,7 +13,6 @@ import { mainRoutes } from './const';
 // library fontawesome icons
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBell } from "@fortawesome/free-solid-svg-icons";
-import { Link } from "react-router-dom";
 
 function App() {
   return (
@@ -23,6 +23,9 @@ function App() {
           <Switch>
             <Route exact path="/">
               <LandingPage />
+            </Route>
+            <Route path = "/home">
+              <LandingPage/>
             </Route>
             <Route path="/login">
               <LoginPage />

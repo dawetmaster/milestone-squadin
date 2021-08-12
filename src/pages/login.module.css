@@ -7,12 +7,12 @@ header a img{
   width: 134px;
 margin-top: 4px;
 }
-.login-page {
+.loginpage {
   width: 360px;
   padding: 8% 0 0;
   margin: auto;
 }
-.login-page .form .login{
+.loginpage .form .login{
   margin-top: -31px;
 margin-bottom: 26px;
 }

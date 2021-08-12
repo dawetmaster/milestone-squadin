@@ -10,9 +10,8 @@ function Navbar() {
                     <a href="/">Squad.In</a>
                 </div>
                 <ul className={styles.menulist}>
-                    <li><Link className={styles.link} to="/">Home</Link></li>
-                    <li><Link className={styles.link} to="/">Search</Link></li>
-                    <li><Link className={styles.link} to="/login">Login</Link></li>
+                    <li><Link className={styles.link} to="/home">Home</Link></li>
+                    <li><Link className={styles.link} to="/search">Search</Link></li>
                     <li>
                         <Notifications
                         header={{
@@ -21,6 +20,8 @@ function Navbar() {
                         />
                     </li>
                     <li><Link className={styles.link} to="/help">Help</Link></li>
+                    <li><Link className={styles.link} to="/login">Login</Link></li>
+                    <li><Link className={styles.link} to="/signup">Sign Up</Link></li>
                 </ul>
             </div>
         </nav>
