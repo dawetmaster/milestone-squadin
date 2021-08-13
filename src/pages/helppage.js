@@ -1,4 +1,5 @@
 import styles from './helppage.module.css';
+import './helppage.module.css';
 import help_icon from "../images/help-icon.png";
 import phone_icon from "../images/phone-icon.png";
 import message_icon from "../images/message-icon.png";
@@ -6,7 +7,7 @@ import instagram_icon from "../images/instragram-icon.png";
 
 function HelpPage() {
   return (
-    <div className={styles.menu}>
+    <div className="menu">
       <h1><img src={help_icon} alt="help" className={styles.icon}/> Help</h1>
       <p>Contact us on:</p>
       <ul type="none">

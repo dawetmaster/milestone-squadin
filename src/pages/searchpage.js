@@ -1,11 +1,12 @@
-const AdvancedSearchPage = () => {
+import {ReactComponent as SearchIcon} from '../images/searchlogo.svg';
+import './searchpage.module.css';
+
+const SearchPage = () => {
     return ( <div>
         <form class="search-form">
             <input type="search" value="" placeholder="Search" class="search-input"/>
             <button type="submit" class="search-button">
-            {/*<svg class="submit-button">
-                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#search"></use>
-    </svg>*/}
+              <SearchIcon />
             </button>    
         <svg xmlns="http://www.w3.org/2000/svg" width="0" height="0" display="none">
             <symbol id="search" viewBox="0 0 32 32">
@@ -89,4 +90,4 @@ const AdvancedSearchPage = () => {
     </div> );
 }
  
-export default AdvancedSearchPage;
+export default SearchPage;
