@@ -5,6 +5,8 @@ import HelpPage from './pages/helppage.js';
 import LandingPage from './pages/landingpage.js';
 import HomePage from './pages/homepage.js';
 import SearchPage from './pages/searchpage.js'
+import SignUpPage from './pages/sign_up.js'
+
 
 import {
   BrowserRouter as Router,
@@ -36,7 +38,7 @@ function App() {
               <HelpPage />
             </Route>
             <Route path="/signup">
-              <div></div>
+              <SignUpPage />
             </Route>
             <Route path="/search">
               <SearchPage />

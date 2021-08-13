@@ -1,19 +1,22 @@
-import styles from './login.module.css'
+import styles from './sign_up.module.css'
 import {Link} from 'react-router-dom'
 
-function LoginPage() {
+function SignUpPage() {
     return(
-        <div className={styles.loginpage}>
+        <div className={styles.sigUpPage}>
             <div className={styles.form}>
-                <div className={styles.login}>
-                    <h3>SIGN UP</h3>
+                <div className={styles.signUp}>
+                    <div className={styles.header}>
+                        <h3>SIGN UP</h3>
+                    </div>
                 </div>
-                <form className = {styles.form}>
+                <form className={styles.form}>
+                    <input type="text" placeholder="username"/>
                     <input type="email" placeholder="email"/>
                     <input type="password" placeholder="password"/>
                     <input type="password" placeholder="password confirmation"/>
-                    <button>sign up</button>
-                    <p className={styles.message}>Not registered? <a href="#"><Link to = "/signup" >Sign Up</Link></a></p>
+                    <button>Sign Up</button>
+                    <p class="message">Registered ? <Link to="/login">Log in </Link></p>
                 </form>
             </div>
         </div>

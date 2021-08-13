@@ -5,16 +5,16 @@ header .header{
 }
 header a img{
   width: 134px;
-margin-top: 4px;
+  margin-top: 4px;
 }
-.sign-up-page {
+.signUpPage {
   width: 360px;
   padding: 8% 0 0;
   margin: auto;
 }
-.sign-up-page .form .sign-up{
+.signUpPage .form .signUp{
   margin-top: -31px;
-margin-bottom: 26px;
+  margin-bottom: 26px;
 }
 .form {
   position: relative;
