@@ -12,7 +12,7 @@ function LoginPage() {
                     <input type="text" placeholder="username"/>
                     <input type="password" placeholder="password"/>
                     <button>login</button>
-                    <p className={styles.message}>Not registered? <a href="/"><Link to = "/signup" >Sign Up</Link></a></p>
+                    <p className={styles.message}>Not registered? <Link to = "/signup" >Sign Up</Link></p>
                 </form>
             </div>
         </div>

@@ -1,5 +1,4 @@
 import {ReactComponent as SearchIcon} from '../images/searchlogo.svg';
-<<<<<<< HEAD
 import styles from './searchpage.module.css';
 
 const SearchPage = () => {
@@ -7,15 +6,6 @@ const SearchPage = () => {
         <form className={styles.searchform}>
             <input type="search" value="" placeholder="Search" className={styles.searchinput}/>
             <button type="submit" className={styles.searchbutton}>
-=======
-import './searchpage.module.css';
-
-const SearchPage = () => {
-    return ( <div>
-        <form class="search-form">
-            <input type="search" value="" placeholder="Search" class="search-input"/>
-            <button type="submit" class="search-button">
->>>>>>> 81b8e4a6d6297edd77cf5f956819fd0dd75cd26c
               <SearchIcon />
             </button>    
         <svg xmlns="http://www.w3.org/2000/svg" width="0" height="0" display="none">
@@ -24,7 +14,6 @@ const SearchPage = () => {
             </symbol>
         </svg>
         </form>
-<<<<<<< HEAD
         <button className={styles.filterbutton}>Filter</button>
         
         <div className={styles.recomendationbox}>
@@ -35,52 +24,26 @@ const SearchPage = () => {
               <input 
                 type="radio" 
                 className={styles.radio} 
-=======
-        <button class="filter-button">Filter</button>
-        
-        <div class="recomendation-box">
-          <div class="recomendation-container">
-            <p>Suggestion :</p>
-
-            <div class="recomendation">
-              <input 
-                type="radio" 
-                class="radio" 
->>>>>>> 81b8e4a6d6297edd77cf5f956819fd0dd75cd26c
                 id="Game" 
                 name="category"
               />
               <label for="Game">Game</label>
             </div>
 
-<<<<<<< HEAD
             <div className ={styles.recomendation}>
               <input 
                 type="radio" 
                 className={styles.radio}  
-=======
-            <div class="recomendation">
-              <input 
-                type="radio" 
-                class="radio" 
->>>>>>> 81b8e4a6d6297edd77cf5f956819fd0dd75cd26c
                 id="Lomba" 
                 name="category"
               />
               <label for="Lomba">Lomba</label>
             </div>
 
-<<<<<<< HEAD
             <div className={styles.recomendation}>
               <input 
                 type="radio" 
                 className={styles.radio} 
-=======
-            <div class="recomendation">
-              <input 
-                type="radio" 
-                class="radio" 
->>>>>>> 81b8e4a6d6297edd77cf5f956819fd0dd75cd26c
                 id="Coding" 
                 name="category"
               />
@@ -89,7 +52,6 @@ const SearchPage = () => {
           </div>
         </div>
 
-<<<<<<< HEAD
         <div className={styles.filterbox}>
           <div className={styles.filtercontainer}>
             <p>Filter :</p>
@@ -98,50 +60,26 @@ const SearchPage = () => {
               <input 
                 type="radio" 
                 className={styles.radio} 
-=======
-        <div class="filter-box">
-          <div class="filter-container">
-            <p>Filter :</p>
-
-            <div class="filter">
-              <input 
-                type="radio" 
-                class="radio" 
->>>>>>> 81b8e4a6d6297edd77cf5f956819fd0dd75cd26c
                 id="minimum" 
                 name="category"
               />
               <label for="minimum">Jumlah anggota minimum</label>
             </div>
 
-<<<<<<< HEAD
             <div className={styles.filter}>
               <input 
                 type="radio" 
                 className={styles.radio}  
-=======
-            <div class="filter">
-              <input 
-                type="radio" 
-                class="radio" 
->>>>>>> 81b8e4a6d6297edd77cf5f956819fd0dd75cd26c
                 id="maksimum" 
                 name="category"
               />
               <label for="maksimum">Jumlah anggota maksimum</label>
             </div>
 
-<<<<<<< HEAD
             <div className={styles.filter}>
               <input 
                 type="radio" 
                 className={styles.radio} 
-=======
-            <div class="filter">
-              <input 
-                type="radio" 
-                class="radio" 
->>>>>>> 81b8e4a6d6297edd77cf5f956819fd0dd75cd26c
                 id="publik" 
                 name="category"
               />
