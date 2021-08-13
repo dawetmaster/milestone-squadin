@@ -92,6 +92,7 @@
     border-radius: 5px;
   }
   
+  /* Bagian Bawah */
   .downbox {
     margin: 0 auto;
     text-align: center;
@@ -99,5 +100,13 @@
   }
   
   .downbox button {
-      margin-left: 20px;
+    margin-left: 20px;
+  }
+
+  .downbox .btn a {
+    text-decoration: none;
+  }
+
+  .downbox button:hover, .downbox button a:hover {
+    color: black;
   }
