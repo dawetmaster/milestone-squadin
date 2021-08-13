@@ -7,7 +7,7 @@ function Navbar() {
         <nav className={styles.navbar}>
             <div className={styles.content}>
                 <div className={styles.logo}>
-                    <a href="/">Squad.In</a>
+                    <Link to="/">Squad.In</Link>
                 </div>
                 <ul className={styles.menulist}>
                     <li><Link className={styles.link} to="/home">Home</Link></li>

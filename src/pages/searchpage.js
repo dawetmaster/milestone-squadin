@@ -1,19 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
+import {ReactComponent as SearchIcon} from '../images/searchlogo.svg';
+import styles from './searchpage.module.css';
 
-    <head>
-      <meta charset="UTF-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <link rel="stylesheet" href="advance_search.css" />
-      <title>Advanced Searc</title>
-    </head>
-    <body> 
-        <form class="search-form">
-            <input type="search" value="" placeholder="Search" class="search-input">
-            <button type="submit" class="search-button">
-            <svg class="submit-button">
-                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#search"></use>
-            </svg>
+const SearchPage = () => {
+    return ( <div>
+        <form className={styles.searchform}>
+            <input type="search" value="" placeholder="Search" className={styles.searchinput}/>
+            <button type="submit" className={styles.searchbutton}>
+              <SearchIcon />
             </button>    
         <svg xmlns="http://www.w3.org/2000/svg" width="0" height="0" display="none">
             <symbol id="search" viewBox="0 0 32 32">
@@ -21,36 +14,36 @@
             </symbol>
         </svg>
         </form>
-        <button class="filter-button">Filter</button>
+        <button className={styles.filterbutton}>Filter</button>
         
-        <div class="recomendation-box">
-          <div class="recomendation-container">
+        <div className={styles.recomendationbox}>
+          <div className={styles.recomendationcontainer}>
             <p>Suggestion :</p>
 
-            <div class="recomendation">
+            <div className={styles.recomendation}>
               <input 
                 type="radio" 
-                class="radio" 
+                className={styles.radio} 
                 id="Game" 
                 name="category"
               />
               <label for="Game">Game</label>
             </div>
 
-            <div class="recomendation">
+            <div className ={styles.recomendation}>
               <input 
                 type="radio" 
-                class="radio" 
+                className={styles.radio}  
                 id="Lomba" 
                 name="category"
               />
               <label for="Lomba">Lomba</label>
             </div>
 
-            <div class="recomendation">
+            <div className={styles.recomendation}>
               <input 
                 type="radio" 
-                class="radio" 
+                className={styles.radio} 
                 id="Coding" 
                 name="category"
               />
@@ -59,34 +52,34 @@
           </div>
         </div>
 
-        <div class="filter-box">
-          <div class="filter-container">
+        <div className={styles.filterbox}>
+          <div className={styles.filtercontainer}>
             <p>Filter :</p>
 
-            <div class="filter">
+            <div className={styles.filter}>
               <input 
                 type="radio" 
-                class="radio" 
+                className={styles.radio} 
                 id="minimum" 
                 name="category"
               />
               <label for="minimum">Jumlah anggota minimum</label>
             </div>
 
-            <div class="filter">
+            <div className={styles.filter}>
               <input 
                 type="radio" 
-                class="radio" 
+                className={styles.radio}  
                 id="maksimum" 
                 name="category"
               />
               <label for="maksimum">Jumlah anggota maksimum</label>
             </div>
 
-            <div class="filter">
+            <div className={styles.filter}>
               <input 
                 type="radio" 
-                class="radio" 
+                className={styles.radio} 
                 id="publik" 
                 name="category"
               />
@@ -94,7 +87,7 @@
             </div>
           </div>
         </div>
-            
-        
-    </body>                
-</html>
+    </div> );
+}
+ 
+export default SearchPage;
