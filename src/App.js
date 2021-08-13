@@ -33,6 +33,9 @@ function App() {
             <Route path="/help">
               <HelpPage />
             </Route>
+            <Route path="/signup">
+              <div></div>
+            </Route>
           </Switch>
         </div>
       </div>
