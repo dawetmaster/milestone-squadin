@@ -5,11 +5,7 @@ import HelpPage from './pages/helppage.js';
 import LandingPage from './pages/landingpage.js';
 import HomePage from './pages/homepage.js';
 import SearchPage from './pages/searchpage.js'
-<<<<<<< HEAD
-=======
 import SignUpPage from './pages/sign_up.js'
-
->>>>>>> 81b8e4a6d6297edd77cf5f956819fd0dd75cd26c
 import ProfileGeneralPage from './pages/profile_general.js'
 import ProfilePasswordsPage from './pages/profile_passwords.js'
 
@@ -43,11 +39,8 @@ function App() {
               <HelpPage />
             </Route>
             <Route path="/signup">
-<<<<<<< HEAD
               <div></div>
-=======
               <SignUpPage />
->>>>>>> 81b8e4a6d6297edd77cf5f956819fd0dd75cd26c
             </Route>
             <Route path="/search">
               <SearchPage />
