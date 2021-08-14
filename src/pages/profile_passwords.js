@@ -2,36 +2,36 @@ import styles from './profile_passwords.module.css';
 
 function ProfilePasswordsPage() {
     return(
-        <div className={container}>
-            <div className={content}>
-                <div className={box}>
-                    <div className={left_box}>
+        <div className={styles.container}>
+            <div className={styles.content}>
+                <div className={styles.box}>
+                    <div className={styles.left_box}>
                         Password Lama
                     </div>
-                    <div className={right_box}>
-                        <input type="password" className={input} required/>
+                    <div className={styles.right_box}>
+                        <input type="password" className={styles.input} required/>
                     </div>
                 </div>
             
-                <div className={box}>
-                    <div className={left_box}>
+                <div className={styles.box}>
+                    <div className={styles.left_box}>
                         Password Baru
                     </div>
-                    <div className={right_box}>
-                        <input type="password" className={input} required/>
+                    <div className={styles.right_box}>
+                        <input type="password" className={styles.input} required/>
                     </div>
                 </div>
 
-                <div className={box}>
-                    <div className={left_box}>
+                <div className={styles.box}>
+                    <div className={styles.left_box}>
                         Konfirmasi Password
                     </div>
-                    <div className={right_box}>
-                        <input type="password" className={input} required/>
+                    <div className={styles.right_box}>
+                        <input type="password" className={styles.input} required/>
                     </div>
                 </div>
             </div>
-            <button className={btn}>Konfirmasi</button>
+            <button className={styles.btn}>Konfirmasi</button>
         </div>
     );
 }
