@@ -7,12 +7,12 @@ function ProfileGeneralPage() {
         <div className={styles.container}>
             <div className={styles.footer_content}>
                 <div className={styles.leftbox}>
-                    <img className={styles.profile_image} src={profile_icon} alt="profile-image">
+                    <img className={styles.profile_image} src={profile_icon} alt="profile-image"/>
                     <div className={styles.option_profile}>
-                        <button className={styles.btn btn_first}> Change </button>
-                        <button className={styles.btn btn_first}> Remove </button>
+                        <button className={styles.btn_first}> Change </button>
+                        <button className={styles.btn_first}> Remove </button>
                     </div>
-                 </div>
+                </div>
             
                 <div className={styles.rightbox}>
                     <div className={styles.box}>
@@ -20,7 +20,7 @@ function ProfileGeneralPage() {
                             Name
                         </div>
                         <div className={styles.right_box}>
-                            <input type="text" className={styles.input} required>
+                            <input type="text" className={styles.input} required/>
                         </div>
                     </div>
                     <div className={styles.box}>
@@ -28,7 +28,7 @@ function ProfileGeneralPage() {
                             Faculity
                         </div>
                         <div className={styles.right_box}>
-                            <input type="text" className={styles.input} required>
+                            <input type="text" className={styles.input} required/>
                         </div>
                     </div>
                     <div className={styles.box}>
@@ -36,7 +36,7 @@ function ProfileGeneralPage() {
                             Interest
                         </div>
                         <div className={styles.right_box}>
-                            <input type="text" className={styles.input} required>
+                            <input type="text" className={styles.input} required/>
                         </div>
                     </div>
                     <div className={styles.box}>
@@ -44,7 +44,7 @@ function ProfileGeneralPage() {
                             Email
                         </div>
                         <div className={styles.right_box}>
-                            <input type="text" className={styles.input} required>
+                            <input type="text" className={styles.input} required/>
                         </div>
                     </div>
                     <div className={styles.box}>
@@ -52,7 +52,7 @@ function ProfileGeneralPage() {
                             LinkedIn
                         </div>
                         <div className={styles.right_box}>
-                            <input type="text" className={styles.input} required>
+                            <input type="text" className={styles.input} required/>
                         </div>
                     </div>
                 </div>
@@ -68,4 +68,4 @@ function ProfileGeneralPage() {
     );
 }
 
-export default ProfilGeneralPage;
+export default ProfileGeneralPage;
