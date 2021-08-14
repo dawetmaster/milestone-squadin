@@ -10,6 +10,8 @@ import SearchPage from './pages/searchpage.js'
 import SignUpPage from './pages/sign_up.js'
 
 >>>>>>> 81b8e4a6d6297edd77cf5f956819fd0dd75cd26c
+import ProfileGeneralPage from './pages/profile_general.js'
+import ProfilePasswordsPage from './pages/profile_passwords.js'
 
 import {
   BrowserRouter as Router,
