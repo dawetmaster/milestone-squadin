@@ -22,8 +22,8 @@ function HomePage() {
                         </svg>
     
                     </form>
-                    <button className={[styles.filterbutton, styles.first].join('')}>Filter</button>
-                    <button className={[styles.filterbutton, styles.second].join('')}> <i className={[styles.far, styles.fa_plus_square].join('')}></i> Create</button>
+                    <button className={`${styles.filterbutton} ${styles.first}`}>Filter</button>
+                    <button className={`${styles.filterbutton} ${styles.second}`}> <i className={`${styles.far} ${styles.fa_plus_square}`}></i> Create</button>
                 </div>
             </div>
 
