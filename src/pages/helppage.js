@@ -7,14 +7,32 @@ import instagram_icon from "../images/instragram-icon.png";
 
 function HelpPage() {
   return (
-    <div className="menu">
-      <h1><img src={help_icon} alt="help" className={styles.icon}/> Help</h1>
-      <p>Contact us on:</p>
-      <ul type="none">
-        <li><img src={phone_icon} className={styles.icon}/> 1500-212</li>
-        <li><img src={message_icon} className={styles.icon}/> <a href="mailto:squad.in@cs.co.id">squad.in@cs.co.id</a></li>
-        <li><img src={instagram_icon} className={styles.icon}/> @squad.in</li>
-        </ul>
+    <div className={styles.menu}>
+      <h1 className={styles.title}> Need some help?</h1>
+      <p className={styles.desc}>Contact us on:</p>
+      <section className={styles.contact}>
+        <figure className={styles.figure}>
+          <img src={phone_icon} className={styles.icon}/>
+            <figcaption>
+                <h3 className={styles.contactname}>Call Center</h3>
+                <h4 className={styles.contactnumber}>1500-212</h4>
+            </figcaption>
+        </figure>
+        <figure className={styles.figure}>
+          <img src={message_icon} className={styles.icon}/>
+            <figcaption>
+                <h3 className={styles.contactname}>Instagram</h3>
+                <h4 className={styles.contactnumber}>@squad.in</h4>
+            </figcaption>
+        </figure>
+        <figure className={styles.figure}>
+        <img src={instagram_icon} className={styles.icon}/>
+            <figcaption>
+                <h3 className={styles.contactname}>Email</h3>
+                <h4 className={styles.contactnumber}><a href="mailto:squad.in@cs.co.id">squad.in@cs.co.id</a></h4>
+            </figcaption>
+        </figure>
+    </section>
     </div>
   );
 }

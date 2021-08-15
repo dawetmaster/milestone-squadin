@@ -110,6 +110,8 @@
 
   .menulist li {
     list-style: none;
+    margin: auto;
+
   }
   .menulist li .link {
     color: rgb(255, 255, 255);
@@ -191,9 +193,11 @@
   
     .navbar .menulist li { /* Menu list di size smartphone */
       padding: 25px 0;
+      margin: 10px;
     }
     .navbar .menulist li a { /* Huruf pada tiap menu list di size smartphone */
       font-size: 20px;
     }
   
   }
+

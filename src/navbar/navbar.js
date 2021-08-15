@@ -10,15 +10,15 @@ function Navbar() {
                     <Link to="/">Squad.In</Link>
                 </div>
                 <ul className={styles.menulist}>
-                    <li><Link className={styles.link} to="/home">Home</Link></li>
-                    <li><Link className={styles.link} to="/search">Search</Link></li>
                     <li>
-                        <Notifications
+                        <Notifications className={styles.notifications}
                         header={{
                             title: 'Notifications',
                         }}
                         />
                     </li>
+                    <li><Link className={styles.link} to="/home">Home</Link></li>
+                    <li><Link className={styles.link} to="/search">Search</Link></li>
                     <li><Link className={styles.link} to="/help">Help</Link></li>
                     <li><Link className={styles.link} to="/login">Login</Link></li>
                     <li><Link className={styles.link} to="/signup">Sign Up</Link></li>

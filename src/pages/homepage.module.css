@@ -19,7 +19,7 @@ body{
 
  /* Top Content */
 .firstcontent {
-    margin-top: 100px;
+    margin-top: 40px;
     text-align: center;
 }
  
@@ -87,9 +87,10 @@ svg {
     display: flex;
     background-color:#fff;
     padding: 25px;
-    margin: 15px;
+    margin:auto;
+    margin-top: 15px;
     border-radius: 27px;
-    width: 700px;
+    width: 80%;
 }
 
 .boxleft {
