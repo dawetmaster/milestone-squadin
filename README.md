@@ -1,8 +1,13 @@
-# milestone-squadin
+WEBSITE SQUAD.IN SEBAGAI KATALISASI PERTEMANAN MAHASISWA ITB SAAT KONDISI DARING
+Kelompok 3 squad.in
 
-Gawe Milestone Kelompok 3
-
-Buat yang pertama kali masuk, clone dulu dengan command `git clone https://github.com/dawetmaster/milestone-squadin.git`
-
-Kalo mau push, jangan pake -f ya biar ga maksa, disarankan pull dulu pake `git pull` baru push pake `git push`.
-Boleh juga pull pake `git pull origin main` lalu push pake `git push origin main` kalo mau spesifik ke branch main.
+Nama Anggota Kelompok dan Tugasnya
+1. Gerald Abraham Sianturi (16520149) :
+2. Hefin Immanuel Ginting (16520178) :
+3. Mohamad Daffa Argakoesoemah (16520185) :
+4. Ikmal Alfaozi (16520205) : Membuat html dan css landing page dan help page
+5. Andika Naufal Hilmy (16520236) : Porting landing page dan help page ke reactjs (keseluruhan web porting tahap awal)
+6. Shadiq Harwiz (16520242) :
+7. Rofif Fairuz Hawary (16520251) : Sebagai product manager yang bertugas mengatur pembagian tugas dan koordinasi setiap anggota
+8. Addin Nabilal Huda (16520342) : 
+9. Vincent Prasetiya Atmadja (16520401) :
