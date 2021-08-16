@@ -2,7 +2,9 @@ import {ReactComponent as SearchIcon} from '../images/searchlogo.svg';
 import styles from './searchpage.module.css';
 
 const SearchPage = () => {
-    return ( <div>
+    return (
+    <div>
+      <div className={styles.header}>
         <form className={styles.searchform}>
             <input type="search" value="" placeholder="Search" className={styles.searchinput}/>
             <button type="submit" className={styles.searchbutton}>
@@ -15,10 +17,11 @@ const SearchPage = () => {
         </svg>
         </form>
         <button className={styles.filterbutton}>Filter</button>
-        
+      </div> 
+
         <div className={styles.recomendationbox}>
           <div className={styles.recomendationcontainer}>
-            <p>Suggestion :</p>
+            <h3 className={styles.recommendationtitle}>Suggestion :</h3>
 
             <div className={styles.recomendation}>
               <input 
@@ -54,7 +57,7 @@ const SearchPage = () => {
 
         <div className={styles.filterbox}>
           <div className={styles.filtercontainer}>
-            <p>Filter :</p>
+            <h3 className={styles.recommendationtitle}>Filter :</h3>
 
             <div className={styles.filter}>
               <input 

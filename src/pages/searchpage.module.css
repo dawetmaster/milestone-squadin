@@ -1,8 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Inter&family=Karla&display=swap');  
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
   }
   
   body {
@@ -88,7 +89,6 @@
   
   .searchform {
     position: absolute;
-    margin-top: 181px;
     margin-left: 226px;
     display :flex;
     width: 756px;
@@ -129,7 +129,6 @@
   
   .filterbutton {
     position: relative;
-    margin-top: 181px;
     margin-left: 998px;
     width: 126px;
     height: 52px;
@@ -152,6 +151,14 @@
     width: 30px;
     height: 30px;
     fill: #5a6674;
+  }
+
+  .header {
+    margin-top: 10px;
+  }
+
+  .recommendationtitle {
+    padding:10px
   }
   
   

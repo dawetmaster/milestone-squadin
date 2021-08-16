@@ -1,8 +1,5 @@
-
-
-
-
-  .content { /* Content dari navbar nya */
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Karla&display=swap');  
+.content { /* Content dari navbar nya */
     max-width: 1250px;
     margin: auto;
     padding: 0px 30px; /* top right bottom left */
@@ -111,7 +108,7 @@
   .menulist li {
     list-style: none;
     margin: auto;
-
+    font-family: 'Karla', sans-serif;
   }
   .menulist li .link {
     color: rgb(255, 255, 255);
@@ -124,6 +121,11 @@
   .menulist li .link:hover {
     color: #000000;
   }
+
+  .menulist.link:hover {
+    background-color: white
+  }
+
   
   .icon {
     color: rgb(0, 0, 0);

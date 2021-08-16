@@ -1,9 +1,11 @@
 import styles from './homepage.module.css'
+import './../index.css';
 import {Link} from 'react-router-dom'
 
 function HomePage() {
     return(
         <div className={styles.topcontent}>
+            <h1 className={styles.title}>Cari kelompokmu!</h1>
             <div className={styles.firstcontent}>
                 <div className={styles.firstsection}>
                     <form className={styles.searchform}>
@@ -31,7 +33,7 @@ function HomePage() {
 
                 <div className={styles.box}>
                     <div className={styles.boxleft}>
-                        <h1> Bussiness Plan </h1>
+                        <h1 className={styles.interest}> Bussiness Plan </h1>
                         <div className={styles.menuseciton}>
                             <div className={styles.category}> 
                                 <div className={styles.minibox}> Hackathon </div>
@@ -53,7 +55,7 @@ function HomePage() {
 
                 <div className={styles.box}>
                     <div className={styles.boxleft}>
-                        <h1> Genshin Impact </h1>
+                        <h1 className={styles.interest}> Genshin Impact </h1>
                         <div className={styles.menuseciton}>
                             <div className={styles.category}> 
                                 <div className={styles.minibox}> Game </div>
@@ -75,7 +77,7 @@ function HomePage() {
 
                 <div className={styles.box}>
                     <div className={styles.boxleft}>
-                        <h1> Bussiness Plan </h1>
+                        <h1 className={styles.interest}> Bussiness Plan </h1>
                         <div className={styles.menuseciton}>
                             <div className={styles.category}> 
                                 <div className={styles.minibox}> Hackathon </div>
@@ -97,7 +99,7 @@ function HomePage() {
 
                 <div className={styles.box}>
                     <div className={styles.boxleft}>
-                        <h1> Genshin Impact </h1>
+                        <h1 className={styles.interest}> Genshin Impact </h1>
                         <div className={styles.menuseciton}>
                             <div className={styles.category}> 
                                 <div className={styles.minibox}> Game </div>

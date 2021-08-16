@@ -1,9 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Roboto&family=Inter&family=Karla&display=swap');  
+
+
 *{
     margin: 0 auto;
 }
  
 body{
    background:#e3e6eb;
+   font-family: 'Roboto';
 }
 
 .minibox{
@@ -21,6 +25,7 @@ body{
 .firstcontent {
     margin-top: 40px;
     text-align: center;
+    margin-bottom:20px;
 }
  
 .firstsection {
@@ -51,7 +56,7 @@ svg {
  
 .searchinput {
     flex-basis: 90%;
-    font-size:25px;
+    font-size:18px;
     background: none;
     border: none;
     appearance: none;
@@ -59,14 +64,14 @@ svg {
 }
  
 .filterbutton {
-    width: 101px;
+    width: 85px;
     border-radius: 20px;
     text-align: center;
     background-color: #9CD124;
     border: none;
     padding: 10px;
     color: #FFFFFF;
-    font-size: 17px;
+    font-size: 15px;
     cursor: pointer;
 }
  
@@ -75,20 +80,22 @@ svg {
    }
  
 .firstsection .second {
-    margin-left: 50px;
+    margin-left: 20px;
    }
  
 .secondcontent {
     margin-top: 70px;
     max-width: 955px;
+    margin: auto;
+    margin-top:10px;
+    position: relative;
 }
  
 .box {
     display: flex;
     background-color:#fff;
     padding: 25px;
-    margin:auto;
-    margin-top: 15px;
+    margin-top: 25px;
     border-radius: 27px;
     width: 80%;
 }
@@ -115,9 +122,21 @@ svg {
 }
 
 .boxright .kapasitas {
-    font-size: 35px;
+    font-size: 25px;
 }
 
 .boxright .minibox {
     cursor: pointer;
+}
+
+.interest {
+    font-family:'Hammersmith One', sans-serif;;
+    font-size:20px
+}
+
+.title {
+    font-size:30px;
+    font-family: 'Hammersmith One', sans-serif;
+    text-align: center;
+    margin:10px
 }
