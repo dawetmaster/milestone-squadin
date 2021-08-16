@@ -1,3 +1,0 @@
-# README
-
-Source code folder

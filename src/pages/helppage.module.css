@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Roboto&family=Inter&family=Karla&display=swap');  
+
+
+.menu {
+    position:relative;
+    margin:auto;
+    margin-top:20px;
+    text-align: center;
+    font-family: 'Roboto';
+}
+
+.icon {
+    height:30px;
+    margin:auto
+}
+
+.link {
+    font-size: 15px;
+    padding:10px;
+}
+
+.title {
+    font-size:30px;
+    font-family: 'Hammersmith One', sans-serif;
+}
+
+.desc {
+    font-size:15px;
+}
+
+.figure {
+    padding:10px;
+    background-color:white;
+    width:200px;
+    display:inline-block;
+    margin:15px;
+    margin-top:20px;
+    height:100px;
+    border-radius: 10px;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+
+}
+
+.contactname {
+    font-weight: bold;
+    font-size:12px;
+    margin:5px;
+    color:#9CD124
+}
+
+.contactnumber {
+    font-size:15px
+}
+
+
+
+
+
+
+

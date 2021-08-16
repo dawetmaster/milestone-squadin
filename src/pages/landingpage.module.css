@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Karla&display=swap');  
+
+.content {
+    display:flex;
+    background-color: white;
+    margin:0
+}
+
+.background img {
+    width: 80%;
+    height: auto;
+}
+
+.background {
+    flex-basis: 80%;
+}
+
+.titlename {
+    font-size: 50px;
+    text-align: right;
+    position:absolute;
+    top:50%;
+    right:5%;
+    font-family: 'Roboto'
+}
+
+.titledesc, .titledesc2 {
+    text-align: right;
+    position:absolute;
+    right:5%;
+    font-family: 'Karla';
+    width:30%;
+    overflow:visible;
+}
+
+.titledesc {
+    top:60%;
+    font-size: 20px;
+}
+
+.titledesc2 {
+    top:65%;
+    font-size: 15px;
+
+}
