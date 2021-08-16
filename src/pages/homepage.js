@@ -47,7 +47,7 @@ function HomePage() {
                         </div>
                     </div>
                     <div className={styles.boxright}>
-                        <p> Kapasitas: </p>
+                        <p className={styles.capacity}> Kapasitas: </p>
                         <div className={styles.kapasitas}> 16 / 64 </div>
                         <button className={styles.minibox}> Ingin Masuk?</button>
                     </div>
@@ -69,7 +69,7 @@ function HomePage() {
                         </div>    
                     </div>
                     <div className={styles.boxright}>
-                        <p> Kapasitas: </p>
+                        <p className={styles.boxright}> Kapasitas: </p>
                         <div className={styles.kapasitas}> 4 / 8 </div>
                         <button className={styles.minibox}> Ingin Masuk?</button>
                     </div>
@@ -91,7 +91,7 @@ function HomePage() {
                         </div>
                     </div>
                     <div className={styles.boxright}>
-                        <p> Kapasitas: </p>
+                        <p className={styles.boxright}> Kapasitas: </p>
                         <div className={styles.kapasitas}> 16 / 64 </div>
                         <button className={styles.minibox}> Ingin Masuk?</button>
                     </div>
@@ -113,7 +113,7 @@ function HomePage() {
                         </div>    
                     </div>
                     <div className={styles.boxright}>
-                        <p> Kapasitas: </p>
+                        <p className={styles.boxright}> Kapasitas: </p>
                         <div className={styles.kapasitas}> 4 / 8 </div>
                         <button className={styles.minibox}> Ingin Masuk?</button>
                     </div>

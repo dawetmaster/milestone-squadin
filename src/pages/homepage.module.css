@@ -64,7 +64,7 @@ svg {
 }
  
 .filterbutton {
-    width: 85px;
+    width: 80px;
     border-radius: 20px;
     text-align: center;
     background-color: #9CD124;
@@ -140,3 +140,4 @@ svg {
     text-align: center;
     margin:10px
 }
+
