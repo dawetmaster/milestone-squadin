@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Roboto&family=Inter&family=Karla&display=swap');  
+
+
+*{
+    margin: 0 auto;
+}
+ 
+body{
+   background:#e3e6eb;
+   font-family: 'Roboto';
+}
+
+.minibox{
+    margin: 5px;
+    background-color: #9CD124;
+    color: #fff;
+    border-radius: 13px;
+    box-shadow: none;
+    padding: 5px 10px;
+    text-align: center;
+    border: none;
+}
+
+ /* Top Content */
+.firstcontent {
+    margin-top: 40px;
+    text-align: center;
+    margin-bottom:20px;
+}
+ 
+.firstsection {
+   display: inline-flex;
+}
+ 
+svg {
+    width: 30px;
+    height: 30px;
+    fill: #5a6674;
+}
+ 
+.searchform {
+    display :flex;
+    width: 756px;
+    height: 51px;
+    border-radius: 50px;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+    background: #fff;
+}
+
+.searchbutton {
+    flex-basis: 10%;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+ 
+.searchinput {
+    flex-basis: 90%;
+    font-size:18px;
+    background: none;
+    border: none;
+    appearance: none;
+    outline: none;
+}
+ 
+.filterbutton {
+    width: 80px;
+    border-radius: 20px;
+    text-align: center;
+    background-color: #9CD124;
+    border: none;
+    padding: 10px;
+    color: #FFFFFF;
+    font-size: 15px;
+    cursor: pointer;
+}
+ 
+.firstsection .first {
+    margin-left: 20px;
+   }
+ 
+.firstsection .second {
+    margin-left: 20px;
+   }
+ 
+.secondcontent {
+    margin-top: 70px;
+    max-width: 955px;
+    margin: auto;
+    margin-top:10px;
+    position: relative;
+}
+ 
+.box {
+    display: flex;
+    background-color:#fff;
+    padding: 25px;
+    margin-top: 25px;
+    border-radius: 27px;
+    width: 80%;
+}
+
+.boxleft {
+    flex-basis: 80%;
+}
+
+.boxleft h1 {
+    font-weight: normal;
+}
+
+.boxleft .menuseciton .category {
+    display: inline-flex;
+}
+
+.boxright {
+    flex-basis: 20%;
+    text-align: center;
+}
+
+.boxright p {
+    font-size: 17px;
+}
+
+.boxright .kapasitas {
+    font-size: 25px;
+}
+
+.boxright .minibox {
+    cursor: pointer;
+}
+
+.interest {
+    font-family:'Hammersmith One', sans-serif;;
+    font-size:20px
+}
+
+.title {
+    font-size:30px;
+    font-family: 'Hammersmith One', sans-serif;
+    text-align: center;
+    margin:10px
+}
+
