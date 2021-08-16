@@ -1,6 +1,6 @@
-WEBSITE SQUAD.IN SEBAGAI KATALISASI PERTEMANAN MAHASISWA ITB SAAT KONDISI DARING
+# WEBSITE SQUAD.IN SEBAGAI KATALISASI PERTEMANAN MAHASISWA ITB SAAT KONDISI DARING
 
-Kelompok 3 squad.in
+## Kelompok 3 squad.in
 
 Nama Anggota Kelompok dan Tugasnya
 1. Gerald Abraham Sianturi (16520149) (geraldabrhm): Membuat js file (memporting) profile geneal dan profile password.
