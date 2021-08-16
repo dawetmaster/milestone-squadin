@@ -19,14 +19,14 @@ function HelpPage() {
             </figcaption>
         </figure>
         <figure className={styles.figure}>
-          <img src={message_icon} className={styles.icon}/>
+          <img src={instagram_icon} className={styles.icon}/>
             <figcaption>
                 <h3 className={styles.contactname}>Instagram</h3>
                 <h4 className={styles.contactnumber}>@squad.in</h4>
             </figcaption>
         </figure>
         <figure className={styles.figure}>
-        <img src={instagram_icon} className={styles.icon}/>
+        <img src={message_icon} className={styles.icon}/>
             <figcaption>
                 <h3 className={styles.contactname}>Email</h3>
                 <h4 className={styles.contactnumber}><a href="mailto:squad.in@cs.co.id">squad.in@cs.co.id</a></h4>
